@@ -96,7 +96,7 @@ NSString* const VDDefaultY = @"VDDefaultY";
     fm = [NSFileManager defaultManager];
 
     // find local markdown script
-    NSString *path = [bundle pathForResource:@"markdown" ofType:nil];
+    NSString *path = [bundle pathForResource:@"markdown.sh" ofType:nil];
     
     // attempts to find markdown (XXX more work here!)
     if ([fm fileExistsAtPath:path])
